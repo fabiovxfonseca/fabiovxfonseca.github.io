@@ -1,0 +1,75 @@
+html, body{
+    margin: 0;
+}
+
+#imagem_fundo{
+    background-image: url(img/fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+#titulo{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    text-transform:uppercase ;
+    padding-top: 15%;
+    margin: 0;
+    font-size: 450%;
+}
+
+#subtitulo{
+    color: white;
+    font-size:150%;
+    font-weight: 100;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-top: 3px white solid;    
+}
+
+#acao{
+    color: white;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    text-decoration:none;
+    
+}
+#acao:hover{
+    background-color:#132F40;
+    font-size: 30;
+}
+
+.icone{
+    width: 60px;
+    padding: 20px;
+}
+
+.icone:hover{
+    background-color:#65818C;
+    border-radius: 23px;
+}
+
+.destaque{
+    background-color:#65818C;
+}
+
+section{
+    padding:20px ;
+}
+
+.imgeco{
+    width: 30%;
+}
+
+img{
+    transition: 500ms;
+}
+img:hover{
+    transform: scale(1.022);
+}
+
