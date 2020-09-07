@@ -3,7 +3,6 @@ html, body{
     font-family: 'Grandstander', cursive;
     text-transform: none;
 }
-
 header{
     background-color:#0455BF;
     color: white;
@@ -12,14 +11,12 @@ header{
     position: fixed;
     z-index: 50;
 }
-
 #logo img{
     width: 50px;
     position: absolute;
     margin-top: 5px;
     margin-left: 13px;
 }
-
 #menu{
     float: right;
     margin-top: 0;
@@ -27,12 +24,10 @@ header{
     margin-bottom: 0;
     list-style: none; 
 }
-
 li{
     float: left;
-    padding: 20px 20px 22px 20px;
+    padding: 20px 20px 18px 20px;
 }
-
 li:hover{
     background-color:#05C7F2
 }
@@ -40,7 +35,6 @@ li a{
     text-decoration: none;
     color:white;
 }
-
 #imagem_fundo{
     background-image: url(img/fundo.jpg);
     background-size: cover;
@@ -49,7 +43,6 @@ li a{
     padding: 10px;
     text-align: center;
 }
-
 #titulo{
     color: white;
     text-shadow: 2px 2px 4px #000000;
@@ -57,9 +50,8 @@ li a{
     letter-spacing: 5px;
     padding-top: 15%;
     margin: 0;
-    font-size: 500%;
+    font-size: 300%;
 }
-
 #subtitulo{
     color: white;
     text-shadow: 2px 2px 4px #000000;
@@ -72,7 +64,9 @@ li a{
     padding-bottom: 40px;
     border-top: 3px white solid;    
 }
-
+a{
+    color: white;
+}
 #acao{
     color: white;
     text-shadow: 2px 2px 4px #000000;
@@ -81,12 +75,10 @@ li a{
     font-size: 30px;
     text-decoration:none;
 }
-
 #acao:hover{
     background-color:#05C7F2;
     font-size: 30;
 }
-
 .topo{
     padding-top: 50px;
 }
@@ -94,42 +86,37 @@ li a{
     width: 60px;
     padding: 20px;
 }
-
 .icone:hover{
     background-color:#0455BF;
     border-radius: 23px;
 }
-
 .destaque{
     background-color:#65818C;
 }
-
 /*Alteração do padding*/
-
 section{
     padding:20px ;
     float: left;
     text-align: center;
     /* Alinhamento do texto*/
 }
-
+.centralizado{
+    text-align: center;
+}
 .justificado{
     text-align: justify;
     /*classe para justificar os paragrafos*/
 }
-
 .imgeco{
     width: 80%;
     height: 30%;
 }
-
 img{
     transition: 500ms;
 }
 img:hover{
     transform: scale(1.022);
 }
-
 .coluna{
     float: left;
     padding: 0 5%;
@@ -137,23 +124,19 @@ img:hover{
     width: 40%;
     /**/
 }
-
 .dois{
     width: 40%;
     /*coluna de Sobre mim*/
 }
-
 .tres{
     width: 29%;
     padding: 0 2%;
     /*coluna de ecopontos*/
 }
-
 .quatro{
     width: 15%;
     /*coluna de seleção*/
 }
-
 #sobre img{
     width: 100%;
 }
