@@ -1,0 +1,184 @@
+html, body{
+    margin: 0;
+    font-family: 'Grandstander', cursive;
+    text-transform: none;
+}
+header{
+    background-color:#0455BF;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 50;
+}
+#logo img{
+    width: 50px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 13px;
+}
+#menu{
+    float: right;
+    margin-top: 0;
+    margin-right: 30px;
+    margin-bottom: 0;
+    list-style: none; 
+}
+li{
+    float: left;
+    padding: 20px 20px 18px 20px;
+}
+li:hover{
+    background-color:#05C7F2
+}
+li a{
+    text-decoration: none;
+    color:white;
+}
+#imagem_fundo{
+    background-image: url(img/fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+}
+#titulo{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-top: 15%;
+    margin: 0;
+    font-size: 300%;
+}
+#subtitulo{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    line-height: 1.5;
+    font-size:120%;
+    font-weight: 100;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-top: 3px white solid;    
+}
+a{
+    color: white;
+}
+#acao{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    font-size: 30px;
+    text-decoration:none;
+}
+#acao:hover{
+    background-color:#05C7F2;
+    font-size: 30;
+}
+.topo{
+    padding-top: 50px;
+}
+.icone{
+    width: 60px;
+    padding: 20px;
+}
+.icone:hover{
+    background-color:#0455BF;
+    border-radius: 23px;
+}
+.destaque{
+    background-color:#65818C;
+}
+/*Alteração do padding*/
+section{
+    padding:20px ;
+    float: left;
+    text-align: center;
+    /* Alinhamento do texto*/
+}
+.centralizado{
+    text-align: center;
+}
+.justificado{
+    text-align: justify;
+    /*classe para justificar os paragrafos*/
+}
+.imgeco{
+    width: 80%;
+    height: 30%;
+}
+img{
+    transition: 500ms;
+}
+img:hover{
+    transform: scale(1.022);
+}
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative; /*posição do elemento (div), vai variar, com base no elemento que vem anteriomente (div ao lado esquerdo)*/
+    width: 40%;
+    /**/
+}
+.dois{
+    width: 40%;
+    /*coluna de Sobre mim*/
+}
+.tres{
+    width: 29%;
+    padding: 0 2%;
+    /*coluna de ecopontos*/
+}
+.quatro{
+    width: 15%;
+    /*coluna de seleção*/
+}
+#sobre img{
+    width: 100%;
+}
+footer{
+    background-color: #0455BF;
+    color: white;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+/*Vai observar o tamanho da tela, que esta consumindo o site, e fazer as adaptações de acordo com as especificações.*/
+@media all and (max-width:768px){
+    #menu{
+        visibility: hidden;
+    }
+
+    .coluna, .dois, .tres, .quatro{
+        display: block;
+        widows: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+
+    #logo{
+        text-align: center;
+    }
+
+    #logo img{
+        margin-left: 0;
+        position: relative;
+    }
+
+    #titulo{
+        padding-top: 15%;
+    }
+    
+    #subtitulo{
+        font-size: 100%;
+        margin-left: 3%;
+        margin-right: 3%;  
+    }
+} 
+
